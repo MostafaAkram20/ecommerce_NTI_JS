@@ -1,0 +1,99 @@
+
+    body { font-family: 'Poppins', sans-serif; overflow-x: hidden; }
+    
+
+    .carousel-item {
+      height: 500px;
+      min-height: 300px;
+      background: no-repeat center center scroll;
+      background-size: cover;
+    }
+   
+    .carousel-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    .cat-card {
+      transition: all 0.3s ease;
+      cursor: pointer;
+      border: none;
+      border-radius: 15px;
+      overflow: hidden;
+      text-decoration: none;
+      display: block;
+    }
+    .cat-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    }
+    .cat-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+ .flash-sale {
+      background: linear-gradient(135deg, #0d6efd 0%, #003da1 100%);
+      border-radius: 20px;
+    } 
+
+    
+    .feature-box:hover { background: #f8f9fa; }
+
+    .newsletter-section {
+      background-color: #f0f7ff;
+      border: 2px dashed #0d6efd;
+      border-radius: 30px;
+    }
+
+
+
+
+      footer {
+      background: var(--dark-bg);
+      color: #8e8e93;
+      padding: 80px 0 30px;
+    }
+    .footer-title {
+      color: #fff;
+      font-weight: 800;
+      font-size: 1.2rem;
+      margin-bottom: 25px;
+    }
+    .footer-link {
+      color: #8e8e93;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 12px;
+      transition: 0.3s;
+    }
+    .footer-link:hover {
+      color: var(--primary-color);
+      padding-left: 5px;
+    }
+    .social-circle {
+      width: 40px;
+      height: 40px;
+      background: #1c1c1e;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+      color: #fff;
+      transition: 0.3s;
+    }
+    .social-circle:hover {
+      background: var(--primary-color);
+      transform: translateY(-5px);
+    }
+    .newsletter-box {
+      background: #1c1c1e;
+      padding: 30px;
+      border-radius: 20px;
+    }
+  

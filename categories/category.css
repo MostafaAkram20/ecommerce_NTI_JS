@@ -1,0 +1,23 @@
+/* Simple category page styling */
+
+.page-title {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.product-card {
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+.product-img {
+  height: 220px;
+  object-fit: contain;
+  background: #fff;
+}
+

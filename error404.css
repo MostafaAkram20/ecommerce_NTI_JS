@@ -1,0 +1,9 @@
+.card {
+  border-radius: 16px;
+}
+
+body {
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    sans-serif;
+}
+
